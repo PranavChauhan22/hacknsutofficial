@@ -1,0 +1,10 @@
+body{
+    --primary-color:black;
+    --secondary-color:#7935ff;
+    --btn-color:#7935ff;
+    --margin-top:30px;
+    --margin-left:20px;
+    --margin-right:20px;
+    background-color: black;
+    overflow-x: hidden;
+}

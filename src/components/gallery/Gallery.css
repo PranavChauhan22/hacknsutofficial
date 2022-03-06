@@ -1,0 +1,33 @@
+.galleria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+.carousel__txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+@media screen and (min-width:1185px) {
+    .carousel{
+        width: 600px;
+       
+    }
+}
+@media screen and (max-width:1185px) {
+    .carousel{
+        width: 300px;
+       
+    }
+}
+
+.gall_left{
+    margin-top: 40px;
+}
+

@@ -1,0 +1,28 @@
+.navbar__logo{
+    width: 80px;
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-top: 15px;
+}
+.navbar__right{
+    display: flex;
+}
+
+.nav_elements{
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.nav_elements:hover{
+    font-weight: bold;
+    color: var(--btn-color);
+    margin-right: 30px;
+    border-bottom: 1px solid white;
+}

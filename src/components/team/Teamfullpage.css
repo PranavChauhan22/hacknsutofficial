@@ -1,0 +1,13 @@
+.teamfull_page{
+color: white;
+
+}
+.team__head{
+    margin-top: 20px;
+}
+.team__cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
