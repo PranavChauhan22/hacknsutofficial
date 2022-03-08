@@ -57,7 +57,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#7935ff' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="24 March 2022, 9 AM"
+        date="25 March 2022, 9 AM"
         iconStyle={{ background: 'white', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">CheckIn</h3>
@@ -68,7 +68,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: '#7935ff', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="24 March 2022, 10 AM"
+        date="25 March 2022, 10 AM"
         iconStyle={{ background: '#7935ff', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Opening Ceremony</h3>
@@ -78,7 +78,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#7935ff' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="24 March 2022, 12 Noon"
+        date="25 March 2022, 12 Noon"
         iconStyle={{ background: 'white', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Coding Period Starts</h3>
@@ -88,7 +88,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: '#7935ff', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="25 March 2022, 12 Noon"
+        date="26 March 2022, 12 Noon"
         iconStyle={{ background: '#7935ff', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Coding Period Ends And Final Evaluation</h3>
@@ -98,7 +98,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#7935ff' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="25 March 2022, 3 Noon"
+        date="26 March 2022, 3 Noon"
         iconStyle={{ background: 'white', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Closing Ceremony</h3>
