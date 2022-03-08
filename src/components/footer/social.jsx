@@ -12,18 +12,12 @@ export default function SocialFollow() {
     <div className="social-container">
     
       <a
-        href="#"
-        className="iconColor youtube social"
-      >
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
-      <a
-        href="#"
+        href="https://www.facebook.com/hacknsut"
         className="iconColor facebook social"
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
-      <a href="#" className="iconColor twitter social">
+      <a href="https://twitter.com/hacknsut" className="iconColor twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a

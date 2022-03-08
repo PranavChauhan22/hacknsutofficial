@@ -23,12 +23,12 @@ function Sponsor() {
       <div className="theme__header" style={{ paddingTop: "80px" }}>
         <div
           className="header_line"
-          style={{ width: onlyWidth / 2 - 200 }}
+          style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
         ></div>
         <div className="theme__head">Past Sponsors</div>
         <div
           className="header_line"
-          style={{ width: onlyWidth / 2 - 200 }}
+          style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
         ></div>
       </div>
       <div class="slider">

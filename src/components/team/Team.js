@@ -32,12 +32,12 @@ function Team() {
       <div className="theme__header">
         <div
           className="header_line"
-          style={{ width: onlyWidth / 2 - 200 }}
+          style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
         ></div>
         <div className="theme__head">Team</div>
         <div
           className="header_line"
-          style={{ width: onlyWidth / 2 - 200 }}
+          style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50}}
         ></div>
       </div>
       <div className="team__outer">
@@ -66,6 +66,7 @@ function Team() {
           <img src={img9} className="profile__pic"/>
           <img src={img7} className="profile__pica"/>
           <img src={img8} className="profile__pic"/>
+          <img src={img14} className="profile__pica"/>
           <img src={img4} className="profile__pic"/>
           <img src={img17} className="profile__pica"/>
           <img src={img3} className="profile__pic"/>

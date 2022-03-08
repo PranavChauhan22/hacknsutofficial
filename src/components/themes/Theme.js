@@ -13,12 +13,12 @@ function Theme() {
       <div className="theme__header">
         <div
           className="header_line"
-          style={{ width: onlyWidth / 2 - 200 }}
+          style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
         ></div>
         <div className="theme__head">Themes</div>
         <div
           className="header_line"
-          style={{ width: onlyWidth / 2 - 200 }}
+          style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
         ></div>
       </div>
       <div className="themes__inner" style={{ paddingTop: "50px" }}>

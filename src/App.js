@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './components/home/Home';
 import "./Style.css"
 import Body from './Body';
@@ -10,15 +10,13 @@ function App() {
   return (
 
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Body/>
+        <Routes>
+          <Route path="/" element={<Body/>}>
             </Route>
-          <Route path="/team">
-            <Teamfullpage/>
+          <Route path="/team" element={<Teamfullpage/>}>
             </Route>
             
-        </Switch>
+        </Routes>
       </Router>
    
   );

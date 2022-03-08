@@ -15,12 +15,12 @@ function Gallery() {
       <div className="theme__header" style={{marginTop:"70px"}}>
         <div
           className="header_line"
-          style={{ width: onlyWidth / 2 - 200 }}
+          style={{width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
         ></div>
         <div className="theme__head">Galleria</div>
         <div
           className="header_line"
-          style={{ width: onlyWidth / 2 - 200 }}
+          style={{width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
         ></div>
       </div>
       <div className="carousel__txt">

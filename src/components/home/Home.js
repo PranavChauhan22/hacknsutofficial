@@ -36,8 +36,12 @@ function Home() {
 
         <AiFillInstagram className="social_icon" />
         </a>
+        <a href="https://www.linkedin.com/in/hack-nsut-a86aa2182//" target={"_blank"}>
         <AiFillLinkedin className="social_icon" />
+        </a>
+        <a href="https://twitter.com/hacknsut" target={"_blank"}>
         <AiOutlineTwitter className="social_icon" />
+        </a>
         <div className="upper_div"></div>
       </div>
       <div className="outer_section">

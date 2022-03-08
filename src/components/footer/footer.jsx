@@ -14,10 +14,10 @@ function Footer() {
              <p>Netaji Subhas University of Technology</p>
              <p>Sector -3, Dwarka</p>
              <p>New Delhi - 110078</p>
-             <p className="email">ieeensut@gmail.com</p>
-             <h4>+91-9999566832</h4>
-             <h4>+91-9560969330</h4>
-             <h4>+91-9136334929</h4>
+             <p className="email">ieeehacknsut@gmail.com</p>
+             <h4>Gagan Singh: +91-9999566832</h4>
+             <h4>Akshat Agarwal: +91-9560969330</h4>
+             <h4>Ujjawal Bansal: +91-9136334929</h4>
 
            </div>
            <div className="col brd"> 

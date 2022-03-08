@@ -22,7 +22,7 @@ import img13 from "../images/profiles/vibhu.jpeg"
 import img14 from "../images/profiles/Yajur.jpeg"
 import img15 from "../images/profiles/anshul.jpg"
 import img16 from "../images/profiles/gagan.jpeg"
-import img17 from "../images/profiles/anshul.jpg"
+import img17 from "../images/profiles/anshulfinal.png"
 import img18 from "../images/profiles/UJJAWAL BANSAL.jpeg"
 import img19 from "../images/profiles/rohit.jpeg"
 const data=[
@@ -112,6 +112,12 @@ img: img4,
 name:"Anannya Mishra",
 desg:"Creative Head",
 linkedIn:"https://www.linkedin.com/in/anannya-mishra-3a16b7203/"
+  },
+  {
+img: img14,
+name:"Yajur Chugh",
+desg:"Creative Head",
+linkedIn:"https://www.linkedin.com/in/yajur-chugh-5a44a220b/"
   },
 {
   img: img8,

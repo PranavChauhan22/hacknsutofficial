@@ -1,9 +1,14 @@
 .team{
     background-color: black;
+    margin-top: 80px;
 }
 .team__left{
     display: flex;
     flex-direction: column;
+    
+}
+.team__right{
+    margin-top: 30px;
 }
 .team__head1{
     color: white;

@@ -7,7 +7,7 @@ function Card(props) {
     <div className="card__team">
         <div className="pp_pic">
 
-        <img src={props.data.img} className={(props.data.name==="Anshul Yadav"||props.data.name==="Chirag Jindal")?"addons_e":"addons"}/>
+        <img src={props.data.img} className={(props.data.name==="Anshul Yadav"||props.data.name==="Chirag Jindal"||props.data.name==="Yajur Chugh")?"addons_e":"addons"}/>
         </div>
         <div className="card__head_1">{props.data.name}</div>
         <div className="card__head_2">{props.data.desg}</div>
