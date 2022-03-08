@@ -62,7 +62,7 @@ function Home() {
 <Fade bottom>
           <div className="home__txt_3">organised by IEEE NSUT</div>
   </Fade>
-         <Countdown date={'2022-03-24'}/>
+         <Countdown date={'2022-03-25'}/>
          <a href="#about" style={{textDecoration:"none"}}>
 
           <div className="home_btn">
