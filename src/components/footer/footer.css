@@ -105,6 +105,10 @@ btn1::before{
     
 }
 
+.col p{
+    font-size: 16px;
+}
+
 btn1::before:hover{
     height: 180% ;
 }
@@ -170,4 +174,7 @@ hr{
 } */
 .copyright{
     text-align: center;
+}
+.footerhead{
+    margin-bottom: 5px;
 }

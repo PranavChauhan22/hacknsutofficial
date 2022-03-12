@@ -11,7 +11,7 @@ function Timeline() {
     const onlyWidth = useWindowWidth();
   return (
       <div>
- <div className="theme__header" style={{marginTop:"100px"}}>
+ <div className="theme__header" id="timeline" style={{marginTop:"100px"}}>
         <div
           className="header_line"
           style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
@@ -27,7 +27,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: '#7935ff', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="8 March 2022"
+        date="10 March 2022"
         iconStyle={{ background: '#7935ff', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">Registration Starts</h3>
@@ -37,7 +37,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#7935ff' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="20 March 2022"
+        date="22 March 2022"
         iconStyle={{ background: 'white', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">Registration Ends</h3>
@@ -47,7 +47,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: '#7935ff', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="21 March 2022"
+        date="24 March 2022"
         iconStyle={{ background: '#7935ff', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">Team Confirmation RollOut</h3>
@@ -57,7 +57,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#7935ff' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="24 March 2022, 9 AM"
+        date="25 March 2022, 9 AM"
         iconStyle={{ background: 'white', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">CheckIn</h3>
@@ -68,7 +68,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: '#7935ff', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="24 March 2022, 10 AM"
+        date="25 March 2022, 10 AM"
         iconStyle={{ background: '#7935ff', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Opening Ceremony</h3>
@@ -78,7 +78,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#7935ff' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="24 March 2022, 12 Noon"
+        date="25 March 2022, 12 Noon"
         iconStyle={{ background: 'white', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Coding Period Starts</h3>
@@ -88,7 +88,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: '#7935ff', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="25 March 2022, 12 Noon"
+        date="26 March 2022, 12 Noon"
         iconStyle={{ background: '#7935ff', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Coding Period Ends And Final Evaluation</h3>
@@ -98,7 +98,7 @@ function Timeline() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#7935ff' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="25 March 2022, 3 Noon"
+        date="26 March 2022, 3 Noon"
         iconStyle={{ background: 'white', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Closing Ceremony</h3>

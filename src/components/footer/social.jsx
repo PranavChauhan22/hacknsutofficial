@@ -3,7 +3,8 @@ import {
   faYoutube,
   faFacebook,
   faTwitter,
-  faInstagram
+  faInstagram,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import "./social.css";
 
@@ -25,6 +26,12 @@ export default function SocialFollow() {
         className="iconColor instagram social"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
+      </a>
+      <a
+        href="ttps://www.linkedin.com/in/hack-nsut-a86aa2182//"
+        className="iconColor instagram social"
+      >
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
     </div>
   );

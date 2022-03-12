@@ -25,12 +25,19 @@ import img16 from "../images/profiles/gagan.jpeg"
 import img17 from "../images/profiles/anshulfinal.png"
 import img18 from "../images/profiles/UJJAWAL BANSAL.jpeg"
 import img19 from "../images/profiles/rohit.jpeg"
+import img20 from "../images/profiles/mridul.jpeg"
 const data=[
   {
     img: img16,
     name:"Gagan Singh",
     desg:"Chief Convener",
     linkedIn:"https://www.linkedin.com/in/gagansingh35/"
+  },
+  {
+    img:img20,
+    name:"Mridul Chaba",
+    desg:"Mentor",
+    linkedIn:"https://www.linkedin.com/in/mridulchaba/"
   },
   {
     img: img11,

@@ -1,0 +1,21 @@
+.list_rl{
+    list-style: none;
+    margin: auto;
+    padding: 40px;
+    
+}
+
+.rl{
+color: white;
+    margin-top: 30px;
+    font-size: 20px; 
+}
+
+ol li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #7935ff; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }

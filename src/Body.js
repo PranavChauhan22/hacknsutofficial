@@ -9,6 +9,7 @@ import Footer from './components/footer/footer';
 import Gallery from './components/gallery/Gallery';
 import Timeline from './components/timeline/Timeline';
 import Faqs from './components/faqs/Faqs';
+import CurrentSponsor from './components/currentSponsers/currentSponsor';
 
 function Body() {
   return (
@@ -17,11 +18,11 @@ function Body() {
      <Home/>
      <About/>
      <Theme/>
+     <CurrentSponsor/>
      <Sponsor/>
      <Timeline/>
      <Gallery/>
      <Team/>
-     <Faqs/>
      <Footer/>
     </div>
   );

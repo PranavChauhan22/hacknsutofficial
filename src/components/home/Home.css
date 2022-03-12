@@ -17,6 +17,7 @@ span{
     align-items: center;
     margin-left: 100px;
 }
+
 .home_btn{
     background-color: var(--btn-color);
     border: 2px solid white;

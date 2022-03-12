@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import home_animation from "../animations/homepage.json";
 import Lottie from "react-lottie";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 import {
   useWindowSize,
   useWindowWidth,
@@ -10,11 +10,12 @@ import {
 import {
   AiFillInstagram,
   AiFillLinkedin,
+  AiOutlineFacebook,
   AiOutlineTwitter,
 } from "react-icons/ai";
 import "./Home.css";
 import Countdown from "./Countdown";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 
 function Home() {
   const onlyWidth = useWindowWidth();
@@ -28,59 +29,75 @@ function Home() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="home" id="home">
       <div className="social_icons">
         <div className="upper_div"></div>
         <a href="https://www.instagram.com/_hacknsut_/" target={"_blank"}>
-
-        <AiFillInstagram className="social_icon" />
+          <AiFillInstagram className="social_icon" />
         </a>
-        <a href="https://www.linkedin.com/in/hack-nsut-a86aa2182//" target={"_blank"}>
-        <AiFillLinkedin className="social_icon" />
+        <a
+          href="https://www.linkedin.com/in/hack-nsut-a86aa2182//"
+          target={"_blank"}
+        >
+          <AiFillLinkedin className="social_icon" />
         </a>
         <a href="https://twitter.com/hacknsut" target={"_blank"}>
-        <AiOutlineTwitter className="social_icon" />
+          <AiOutlineTwitter className="social_icon" />
+        </a>
+        <a href="https://facebook.com/hacknsut" target={"_blank"}>
+          <AiOutlineFacebook className="social_icon" />
         </a>
         <div className="upper_div"></div>
       </div>
       <div className="outer_section">
         <div className="left_section">
           <Fade left>
-
-          <div className="home__txt_1">Welcome to</div>
+            <div className="home__txt_1">Welcome to</div>
           </Fade>
           <div className="home__txt_2">HackNSUT</div>
           <Typewriter
-  options={{
-    strings: ['Learn', 'Code','Develop'],
-    autoStart: true,
-    loop: true,
-    className:"type"
-  }}
-/>
-<Fade bottom>
-          <div className="home__txt_3">organised by IEEE NSUT</div>
-  </Fade>
-         <Countdown date={'2022-03-24'}/>
-         <a href="#about" style={{textDecoration:"none"}}>
+            options={{
+              strings: ["Learn", "Code", "Develop"],
+              autoStart: true,
+              loop: true,
+              className: "type",
+            }}
+          />
+          <Fade bottom>
+            <div className="home__txt_3">organised by IEEE NSUT</div>
+          </Fade>
+          <Countdown date={"2022-03-25"} />
 
-          <div className="home_btn">
-            Get Started
-            </div>
-         </a>
+            <div
+              className="apply-button"
+              data-hackathon-slug="hacknsut-4"
+              data-button-theme="dark-inverted"
+    
+            ></div>
         </div>
         <Fade up>
-
-        <div className="right_section">
-          <Lottie
-            options={defaultOptions}
-            height={onlyWidth >= 678 ? 600 : onlyWidth >= 678 ? 500 : 300}
-            isStopped={isStopped}
-            isPaused={isPaused}
+          <div className="right_section">
+            <Lottie
+              options={defaultOptions}
+              height={onlyWidth >= 678 ? 600 : onlyWidth >= 678 ? 500 : 300}
+              isStopped={isStopped}
+              isPaused={isPaused}
             />
-        </div>
-            </Fade>
+          </div>
+        </Fade>
       </div>
     </div>
   );

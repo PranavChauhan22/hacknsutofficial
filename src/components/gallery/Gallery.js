@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Carousel from "../carousels/Carousel";
 
 import CarouselGalleria from "../carousels/Carousel";
@@ -10,6 +10,16 @@ import {
 } from "@react-hook/window-size";
 function Gallery() {
   const onlyWidth = useWindowWidth();
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
   return (
     <div className="galleria" id="gallery">
       <div className="theme__header" style={{marginTop:"70px"}}>
@@ -33,7 +43,12 @@ function Gallery() {
           <div className="team__head2">
           There is more to representing art than selling art. The life of the gallery is dependent on the renewal and refreshment of its artists and dealers. When that stops happening, it's the end.
           </div>
-          <div className="home_btn">Register</div>
+          <div 
+	className="apply-button" 
+	data-hackathon-slug="hacknsut-4" 
+	data-button-theme="dark-inverted"
+	style={{height: 44 + 'px', width: 312 + 'px'}}
+></div>
         </div>
       </div>
     </div>

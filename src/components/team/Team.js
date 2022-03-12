@@ -24,6 +24,7 @@ import img16 from "../images/profiles/gagan.jpeg"
 import img17 from "../images/profiles/anshul.jpg"
 import img18 from "../images/profiles/UJJAWAL BANSAL.jpeg"
 import img19 from "../images/profiles/rohit.jpeg"
+import img20 from "../images/profiles/mridul.jpeg"
 
 function Team() {
   const onlyWidth = useWindowWidth();
@@ -57,6 +58,7 @@ function Team() {
         </div>
         <div className="team__right">
           <img src={img16} className="profile__pic"/>
+          <img src={img20} className="profile__pic"/>
           <img src={img11} className="profile__pic"/>
           <img src={img19} className="profile__pic"/>
           <img src={img10} className="profile__pic"/>

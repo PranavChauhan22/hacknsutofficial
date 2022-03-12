@@ -19,7 +19,7 @@ import "./Faq.css"
 export default function Faq() {
     const onlyWidth = useWindowWidth();
     return (
-        <Accordion style={{width:(300<onlyWidth-500)?onlyWidth-500:300,margin:"auto",marginTop:"20px"}}>
+        <Accordion style={{width:(300<onlyWidth-500)?onlyWidth-500:300,margin:"auto",marginTop:"20px",marginBottom:"40px"}}>
             <AccordionItem style={{marginTop:"20px"}}>
                 <AccordionItemHeading>
                     <AccordionItemButton style={{backgroundColor:"#7935ff",color:"white",borderTopLeftRadius:"20px"}}>

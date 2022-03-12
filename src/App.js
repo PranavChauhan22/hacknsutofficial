@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import "./Style.css"
 import Body from './Body';
 import Teamfullpage from './components/team/Teamfullpage';
+import Rule from './components/rules/Rule';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
           <Route path="/" element={<Body/>}>
             </Route>
           <Route path="/team" element={<Teamfullpage/>}>
+            </Route>
+          <Route path="/rules" element={<Rule/>}>
             </Route>
             
         </Routes>
