@@ -5,26 +5,25 @@ import {
   useWindowHeight,
 } from "@react-hook/window-size";
 import "./Team.css";
-import img1 from "../images/profiles/Akshat.JPG"
-import img2 from "../images/profiles/pranav.png"
-import img3 from "../images/profiles/aarushi.jpg"
-import img4 from "../images/profiles/annanya.jpg"
-import img5 from "../images/profiles/ayush.jpeg"
-import img6 from "../images/profiles/basant.JPG"
-import img7 from "../images/profiles/chirag.jpg"
-import img8 from "../images/profiles/harshfinal.png"
-import img9 from "../images/profiles/ritik.jpg"
-import img10 from "../images/profiles/harshsharma.png"
-import img11 from "../images/profiles/mehul.jpeg"
-import img12 from "../images/profiles/mukhtish.jpeg"
-import img13 from "../images/profiles/vibhu.jpeg"
-import img14 from "../images/profiles/Yajur.jpeg"
-import img15 from "../images/profiles/anshul.jpg"
-import img16 from "../images/profiles/gagan.jpeg"
-import img17 from "../images/profiles/anshul.jpg"
-import img18 from "../images/profiles/UJJAWAL BANSAL.jpeg"
-import img19 from "../images/profiles/rohit.jpeg"
-import img20 from "../images/profiles/mridul.jpeg"
+const img1 ="1CH7jkvsHwOgfkllNM65VnkAAXc7ATN_s"
+const img2 ="19ZXOMxFZMZQIGP0msjnM9viNHK1ZrlnX"
+const img3 = "12vfrkOO5C92ExlJRZyWUZakigEawzOXk"
+const img4 ="19kXytysDJTuYLJO06GRkRXntjvuE3vqV"
+const img5 ="14qTRrtbJeOZfH1oCrQFJdsVCJM7-7bYM"
+const img6 ="1O8BtDNAvr4Q_wCCfqSm80fIwJTDF20Yw"
+const img7 ="1eSycO_RC2qfNx085-E6NakDoH3FoTK8i"
+const img8 ="1DhZ0Pe1YrLCHLVjkqGZ8HatdGFlKSpAE"
+const img9 ="1KagQMLZDACqr-Mn_7O6wiWzAyOqCcNXi"
+const img10= "1DCfAI8CFdEFukchAKQZN8GzOf8rAw2dX"
+const img11= "109Fj17ITesStauBCZKnp7e-hDjWDTERq"
+const img12= "1ZUjTWprQYlncou6UPeVMSKwS3EW5RwfM"
+const img13= "1uTh3yg32WDMieack6xpBVBmUt_GFIkYk"
+const img14= "1mpPvt3JsZDPy4jLLvhMheiDbbVmNna4T"
+const img16= "1eeGn2ITs6VwIwqkaFfnufsPsyPA4NzXu"
+const img17= "1ygUdMEwoykqxRCoM4imtzabWVYRGlM3T"
+const img18= "1mXOhIkisU73wmuY-QKQQNRucUmA5Frh5"
+const img19= "1okRG_3gAb8OFyChWEgdjLs7jekPRo5H0"
+const img20= "1sPnZsZiEGCkNIon4xA62iZAWCnz4sbNn"
 
 function Team() {
   const onlyWidth = useWindowWidth();
@@ -57,25 +56,25 @@ function Team() {
           </a>
         </div>
         <div className="team__right">
-          <img src={img16} className="profile__pic"/>
-          <img src={img20} className="profile__pic"/>
-          <img src={img11} className="profile__pic"/>
-          <img src={img19} className="profile__pic"/>
-          <img src={img10} className="profile__pic"/>
-          <img src={img12} className="profile__pic"/>
-          <img src={img13} className="profile__pic"/>
-          <img src={img6} className="profile__pic"/>
-          <img src={img9} className="profile__pic"/>
-          <img src={img7} className="profile__pica"/>
-          <img src={img8} className="profile__pic"/>
-          <img src={img14} className="profile__pica"/>
-          <img src={img4} className="profile__pic"/>
-          <img src={img17} className="profile__pica"/>
-          <img src={img3} className="profile__pic"/>
-          <img src={img18} className="profile__pic"/>
-          <img src={img1} className="profile__pic"/>
-          <img src={img5} className="profile__pic"/>
-          <img src={img2} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img16} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img20} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img11} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img19} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img10} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img12} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img13} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img6} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img9} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img7} className="profile__pica"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img8} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img14} className="profile__pica"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img4} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img17} className="profile__pica"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img3} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img18} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img1} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img5} className="profile__pic"/>
+          <img src={"https://drive.google.com/thumbnail?id="+img2} className="profile__pic"/>
         </div>
       </div>
     </div>

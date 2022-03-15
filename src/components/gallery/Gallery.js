@@ -45,7 +45,7 @@ function Gallery() {
           </div>
           <div 
 	className="apply-button" 
-	data-hackathon-slug="hacknsut-4" 
+	data-hackathon-slug="hacknsut-5" 
 	data-button-theme="dark-inverted"
 	style={{height: 44 + 'px', width: 312 + 'px'}}
 ></div>

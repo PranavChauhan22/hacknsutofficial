@@ -82,7 +82,7 @@ function Footer() {
         <div className="col">
           <div
             className="apply-button"
-            data-hackathon-slug="hacknsut-4"
+            data-hackathon-slug="hacknsut-5"
             data-button-theme="dark"
             style={{ height: 44 + "px", width: 312 + "px" }}
           ></div>

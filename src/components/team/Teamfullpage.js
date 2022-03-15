@@ -4,28 +4,29 @@ import {
   useWindowWidth,
   useWindowHeight,
 } from "@react-hook/window-size";
+
+
 import "./Teamfullpage.css"
 import Card from './Card';
-import img1 from "../images/profiles/Akshat.JPG"
-import img2 from "../images/profiles/pranav.png"
-import img3 from "../images/profiles/aarushi.jpg"
-import img4 from "../images/profiles/annanya.jpg"
-import img5 from "../images/profiles/ayush.jpeg"
-import img6 from "../images/profiles/basant.JPG"
-import img7 from "../images/profiles/chirag.jpg"
-import img8 from "../images/profiles/harshfinal.png"
-import img9 from "../images/profiles/ritik.jpg"
-import img10 from "../images/profiles/harshsharma.png"
-import img11 from "../images/profiles/mehul.jpeg"
-import img12 from "../images/profiles/mukhtish.jpeg"
-import img13 from "../images/profiles/vibhu.jpeg"
-import img14 from "../images/profiles/Yajur.jpeg"
-import img15 from "../images/profiles/anshul.jpg"
-import img16 from "../images/profiles/gagan.jpeg"
-import img17 from "../images/profiles/anshulfinal.png"
-import img18 from "../images/profiles/UJJAWAL BANSAL.jpeg"
-import img19 from "../images/profiles/rohit.jpeg"
-import img20 from "../images/profiles/mridul.jpeg"
+const img1 ="1CH7jkvsHwOgfkllNM65VnkAAXc7ATN_s"
+const img2 ="19ZXOMxFZMZQIGP0msjnM9viNHK1ZrlnX"
+const img3 = "12vfrkOO5C92ExlJRZyWUZakigEawzOXk"
+const img4 ="19kXytysDJTuYLJO06GRkRXntjvuE3vqV"
+const img5 ="14qTRrtbJeOZfH1oCrQFJdsVCJM7-7bYM"
+const img6 ="1O8BtDNAvr4Q_wCCfqSm80fIwJTDF20Yw"
+const img7 ="1eSycO_RC2qfNx085-E6NakDoH3FoTK8i"
+const img8 ="1DhZ0Pe1YrLCHLVjkqGZ8HatdGFlKSpAE"
+const img9 ="1KagQMLZDACqr-Mn_7O6wiWzAyOqCcNXi"
+const img10= "1DCfAI8CFdEFukchAKQZN8GzOf8rAw2dX"
+const img11= "109Fj17ITesStauBCZKnp7e-hDjWDTERq"
+const img12= "1ZUjTWprQYlncou6UPeVMSKwS3EW5RwfM"
+const img13= "1uTh3yg32WDMieack6xpBVBmUt_GFIkYk"
+const img14= "1mpPvt3JsZDPy4jLLvhMheiDbbVmNna4T"
+const img16= "1eeGn2ITs6VwIwqkaFfnufsPsyPA4NzXu"
+const img17= "1ygUdMEwoykqxRCoM4imtzabWVYRGlM3T"
+const img18= "1mXOhIkisU73wmuY-QKQQNRucUmA5Frh5"
+const img19= "1okRG_3gAb8OFyChWEgdjLs7jekPRo5H0"
+const img20= "1sPnZsZiEGCkNIon4xA62iZAWCnz4sbNn"
 const data=[
   {
     img: img16,

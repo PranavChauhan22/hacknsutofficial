@@ -1,13 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {FaLinkedinIn} from 'react-icons/fa'
 import "./Card.css"
 function Card(props) {
-    console.log(props)
+
   return (
     <div className="card__team">
         <div className="pp_pic">
 
-        <img src={props.data.img} className={(props.data.name==="Anshul Yadav"||props.data.name==="Chirag Jindal"||props.data.name==="Yajur Chugh")?"addons_e":"addons"}/>
+        <img src={"https://drive.google.com/thumbnail?id="+props.data.img} className={(props.data.name==="Anshul Yadav"||props.data.name==="Chirag Jindal"||props.data.name==="Yajur Chugh")?"addons_e":"addons"}/>
         </div>
         <div className="card__head_1">{props.data.name}</div>
         <div className="card__head_2">{props.data.desg}</div>

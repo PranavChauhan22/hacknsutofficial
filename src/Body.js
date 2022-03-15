@@ -10,11 +10,22 @@ import Gallery from './components/gallery/Gallery';
 import Timeline from './components/timeline/Timeline';
 import Faqs from './components/faqs/Faqs';
 import CurrentSponsor from './components/currentSponsers/currentSponsor';
-
+import Loading from './components/loading/Loading';
+import react,{useState,useEffect} from 'react'
 function Body() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 8000);
+  }, []);
   return (
     <div>
-      <Navbar/>
+      {isLoading?
+        <Loading/>:
+        <div>
+
+    <Navbar/>
      <Home/>
      <About/>
      <Theme/>
@@ -24,6 +35,9 @@ function Body() {
      <Gallery/>
      <Team/>
      <Footer/>
+     </div>
+    }
+   
     </div>
   );
 }

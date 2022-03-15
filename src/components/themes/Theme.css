@@ -354,3 +354,95 @@ p {
 .timeline-body{
     padding: 30px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.Container{    
+    margin: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;  
+    grid-gap: 20px;  
+}
+
+.Theme_Item{
+    background-color: black;
+    border-radius: 20px;
+    /* border-style: ridge; border-color: blueviolet; */
+}
+
+.Container .Theme_Title{
+    font-family: "Poppins" , sans-serif;
+    margin-left: auto; margin-right: auto; /* Center align the component */
+    text-align: center; text-shadow: 0px 1px 37px #5600f4;
+    border-radius: 18px;
+    color: black; font-size: 20px;
+    padding: 10px;
+    background: rgb(149,0,255);
+    background: linear-gradient(90deg, rgba(149,0,255,1) 47%, #7935ff 100%);   
+    width: auto; 
+    transition: 0s; pointer-events: none;
+    border: 4px inset rgb(145, 5, 238);
+    border-radius: 0px 6px 6px 51px;
+}
+
+.Container .Tooltip{        
+    font-family: "Poppins" , sans-serif; font-size: 0px; 
+    margin: 5px;    
+    text-align: left;
+    pointer-events: none;
+    opacity: 0;
+
+}
+
+
+ .Container .Theme_Item:hover .Tooltip{   
+    opacity: 1;
+    transition: all 1s ease; 
+    font-size: 17px; color: #7935ff;  
+    padding: 20px;      
+}
+
+
+ .Container .Theme_Item:hover{
+     transform: scale(1.2); z-index: 1;    
+     width: 800px;              
+}
+
+.Container .Theme_Item:hover .Theme_Title{
+    transition: all 1s ease;
+    border: 4px inset rgb(145, 5, 238);
+    border-radius: 6px 51px 0px 6px;  border: 4px inset #7935ff;
+    color: aliceblue;  
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, #7935ff 0%, rgba(149,0,255,1) 47% 100%);
+}
+
+@media screen and (max-width:500px){
+    .Container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Container .Theme_Item:hover{
+        transform: none; z-index: 1;    
+        width: fit-content;                      
+   }
+          
+} 
+
+@media screen and (min-width:500px) and (max-width:1300px){
+    .Container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Container .Theme_Item:hover{
+        transform: scale(1.1); z-index: 1;    
+        width: 500px;                      
+   }
+}
+
+
+
+
+

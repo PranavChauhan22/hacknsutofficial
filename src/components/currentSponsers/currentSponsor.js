@@ -15,7 +15,7 @@ function CurrentSponsor() {
   const onlyWidth = useWindowWidth();
   return (
     <div className="sponsor" id="sponsor">
-      <div className="theme__header" style={{ paddingTop: "80px" }}>
+      <div className="theme__header" style={{ paddingTop: "0px" }}>
         <div
           className="header_line"
           style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
