@@ -1,11 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutube,
   faFacebook,
   faTwitter,
   faInstagram,
-  faLinkedin
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import {
+  faEnvelope, faEnvelopeSquare
+} from "@fortawesome/free-solid-svg-icons";
 import "./social.css";
 
 export default function SocialFollow() {
@@ -28,10 +30,16 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
       <a
-        href="ttps://www.linkedin.com/in/hack-nsut-a86aa2182//"
+        href="https://www.linkedin.com/in/hack-nsut-a86aa2182//"
         className="iconColor instagram social"
       >
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
+      </a>
+      <a
+        href="mailto:ieeehacknsut@gmail.com"
+        className="iconColor instagram social"
+      >
+        <FontAwesomeIcon icon={faEnvelope} size="2x" />
       </a>
     </div>
   );

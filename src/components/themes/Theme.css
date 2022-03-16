@@ -400,7 +400,7 @@ p {
  .Container .Theme_Item:hover .Tooltip{   
     opacity: 1;
     transition: all 1s ease; 
-    font-size: 17px; color: #7935ff;  
+    font-size: 17px; color: #fff;  
     padding: 20px;      
 }
 

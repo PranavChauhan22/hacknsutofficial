@@ -11,6 +11,7 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
   AiOutlineFacebook,
+  AiOutlineMail,
   AiOutlineTwitter,
 } from "react-icons/ai";
 import "./Home.css";
@@ -59,6 +60,9 @@ function Home() {
         </a>
         <a href="https://facebook.com/hacknsut" target={"_blank"}>
           <AiOutlineFacebook className="social_icon" />
+        </a>
+        <a href="mailto:ieeehacknsut@gmail.com" target={"_blank"}>
+          <AiOutlineMail className="social_icon" />
         </a>
         <div className="upper_div"></div>
       </div>

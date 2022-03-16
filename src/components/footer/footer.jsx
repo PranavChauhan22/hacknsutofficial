@@ -40,7 +40,7 @@ function Footer() {
           <div>Netaji Subhas University of Technology</div>
           <div>Sector -3, Dwarka</div>
           <div>New Delhi - 110078</div>
-          <div className="email">ieeehacknsut@gmail.com</div>
+          <div className="email"><a href="mailto:ieeehacknsut@gmail.com">ieeehacknsut@gmail.com</a></div>
           <h4>
             Gagan Singh <br />
             Chief-Convener: +91-9999566832
