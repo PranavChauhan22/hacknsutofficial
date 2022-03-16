@@ -1,185 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
+import React, { useEffect } from "react";
+import "./footer.css";
+import SocialFollow from "./social";
+
+function Footer() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+  return (
+    <footer>
+      <div className="row" id="footer">
+        <div className="col">
+          <img
+            src={require("../images/logo_black and white.png")}
+            className="logo"
+          ></img>
+          <div>
+            A 24-hour Software Hackathon with themes like IoT,
+            Blockchain/Fintech, AR/VR, Edtech, Healthcare, Assistive technology
+            and much more. IEEE NSUT’s annual Technical Extravaganza HackNSUT’22
+            for its next edition, is organised this time under the aegis of
+            Moksha-Innovision 22, the annual cultural and technical fest of
+            Netaji Subhas University of Technology.
+          </div>
+        </div>
+        <div className="col brd">
+          <h3 className="footerhead">
+            Address{" "}
+            <div className="underline">
+              <span></span>
+            </div>
+          </h3>
+          <div>Netaji Subhas University of Technology</div>
+          <div>Sector -3, Dwarka</div>
+          <div>New Delhi - 110078</div>
+          <div className="email"><a href="mailto:ieeehacknsut@gmail.com">ieeehacknsut@gmail.com</a></div>
+          <h4>
+            Gagan Singh <br />
+            Chief-Convener: +91-9999566832
+          </h4>
+          <h4>
+            Akshat Agarwal <br />
+            Event Management Head: +91-9560969330
+          </h4>
+          <h4>
+            Ujjawal Bansal <br />
+            Event Management Head: +91-9136334929
+          </h4>
+        </div>
+        <div className="col brd">
+          <h3>
+            Links{" "}
+            <div className="underline">
+              <span></span>
+            </div>
+          </h3>
+          <ul>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#sponsor">Sponsors</a>
+            </li>
+            <li>
+              <a href="#faq">FAQs</a>
+            </li>
+            <li>
+              <a href="#footer">Contact</a>
+            </li>
+            <li>
+              <a href="/rules">Rules</a>
+            </li>
+          </ul>
+        </div>
+        <div className="col">
+          <div
+            className="apply-button"
+            data-hackathon-slug="hacknsut-5"
+            data-button-theme="dark"
+            style={{ height: 44 + "px", width: 312 + "px" }}
+          ></div>
+
+          <div className="social">
+            <SocialFollow />
+          </div>
+        </div>
+      </div>
+      <hr></hr>
+
+      <p className="copyright">HackNSUT © 2022 - All Rights Reserved</p>
+    </footer>
+  );
 }
 
-
-footer{
-margin-top: 120px;
-    width: 100%;
-    bottom: 0;
-    background-color: #7935ff;
-    color: #fff;
-    padding: 100px 0 30px;
-    border-top-left-radius: 125px;
-    font-size: 13px;
-    line-height: 20px;
-}
-
-footer .logo{
-    max-width: 20vw;
-    max-height: 20vh;
-}
-
-.row{
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.col h3{
-    width: fit-content;
-    margin-bottom: 40px;
-    position: relative;
-}
-
-.col{
-    text-align: left;
-    flex-basis: 25%;
-    padding: 10px;
-}
-
-.col:nth-child(2), .col:nth-child(3){
-    flex-basis: 15%;
-}
-
-.email{
-    width: fit-content;
-    /* border-bottom: 1px solid #ccc; */
-    margin: 20px 0;
-}
-.email a{
-
-  color: #fff;
-    
-}
-
-ul li{
-    list-style: none;
-    margin-bottom: 12px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.btn{
-    border: 1px solid #ccc;
-    background: none;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-family: 'montserrat';
-    cursor: pointer;
-    transition: 0.8s;
-    position: relative;
-    overflow: hidden;
-    margin: 0 1rem;
-
-}
-
-.btn1{
-    color: #fff;
-}
-
-.btn1:hover{
-    color: #2d0b00 ;
-}
-
-btn::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background: #fff;
-    z-index: -1;
-    transition: 0.8s;
-    color: #2d0b00;
-}
-
-btn1::before{
-    top: 0;
-    border-radius: 0 0 50% 50%;
-    height: 180%;
-    
-}
-
-.col p{
-    font-size: 16px;
-}
-
-btn1::before:hover{
-    height: 180% ;
-}
-
-hr{
-    width: 90%;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-    margin: 20px auto;
-}
-
-.underline{
-    width: 100%;
-    height: 5px;
-    background: #767676;
-    border-radius: 3px;
-    position: absolute;
-    top: 25px;
-    left: 0;
-    overflow: hidden;
-
-}
-
-.underline span{
-    width: 15px;
-    height: 100%;
-    background: #fff;
-    border-radius: 3px;
-    position: absolute;
-    top: 0;
-    left: 10px;
-    animation: moving 2s linear infinite;
-}
-
-@keyframes moving {
-    0%{
-        left: -20px;
-    }
-    
-    100%{
-        left: 100%;
-    }
-}
-
-@media (max-width: 700px) {
-    footer{
-        bottom: unset;
-    }
-    .col{
-        text-align: left;
-        flex-basis: 100%;
-        
-    }
-    
-    .col:nth-child(2), .col:nth-child(3){
-        flex-basis: 100%;
-    }
-}
-
-/* .brd{
-    border-left: 1px solid #ccc;
-    padding-left: 10px ;
-} */
-.copyright{
-    text-align: center;
-}
-.footerhead{
-    margin-bottom: 5px;
-}
+export default Footer;
