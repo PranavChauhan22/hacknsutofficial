@@ -94,7 +94,7 @@ function Footer() {
 
             </div>
           <a href="https://drive.google.com/file/d/1S0AMhZ9QaAvDHzBRBFqpf96EDTYBoGea/view?usp=sharing">
-            <button className="btn btn1 brochure">Download Brochure</button>
+            <button className="btn btn1 brochure">Sponsor Us</button>
           </a> 
           </div>
 
