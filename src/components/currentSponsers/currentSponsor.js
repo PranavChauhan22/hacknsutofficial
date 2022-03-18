@@ -12,6 +12,9 @@ import img4 from "../images/currentSponsi/polygon.png";
 import img5 from "../images/currentSponsi/tezos.png";
 import img6 from "../images/currentSponsi/rosenfeld.jpg";
 
+import winzo from "../images/currentSponsi/Winzo_final_logo.jpeg"
+import agora from "../images/sponsi/agora_logo.png"
+
 function CurrentSponsor() {
   const onlyWidth = useWindowWidth();
   return (
@@ -31,7 +34,25 @@ function CurrentSponsor() {
       <div className="title-sponsors">
         <h2 className="theme__head main special">Title Sponsors</h2>
         <div className="cardSet">
-          <div className="cardTrack">
+          <div className="cardTrack" style={{display:"flex",alignItems:"center"}}>
+            <div className="slidea">
+              <a href="https://www.winzogames.com/">
+                <img src={winzo} width="300" alt=""></img>
+              </a>
+            </div>
+
+            <div className="slidea">
+              <a href="https://www.agora.io/en/">
+                <img src={agora} width="300" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="title-sponsors">
+        <h2 className="theme__head main special">Platinum Sponsors</h2>
+        <div className="cardSet">
+          <div className="cardTrack" style={{display:"flex",alignItems:"center"}}>
             <div className="slidea">
               <a href="https://devfolio.co">
                 <img src={img2} width="300" alt=""></img>
