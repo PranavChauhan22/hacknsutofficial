@@ -86,10 +86,18 @@ function Footer() {
             data-button-theme="dark"
             style={{ height: 44 + "px", width: 312 + "px" }}
           ></div>
-
           <div className="social">
             <SocialFollow />
           </div>
+          <div >
+            <div className="spacing">
+
+            </div>
+          <a href="https://drive.google.com/file/d/1S0AMhZ9QaAvDHzBRBFqpf96EDTYBoGea/view?usp=sharing">
+            <button className="btn btn1 brochure">Download Brochure</button>
+          </a> 
+          </div>
+
         </div>
       </div>
       <hr></hr>
