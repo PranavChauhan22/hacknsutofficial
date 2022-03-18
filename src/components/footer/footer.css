@@ -70,28 +70,34 @@ ul li a{
 }
 
 .btn{
-    border: 1px solid #ccc;
+    border: 5px ;
+    /* margin-top: 50px; */
     background: none;
     padding: 10px 20px;
     font-size: 20px;
     font-family: 'montserrat';
     cursor: pointer;
-    transition: 0.8s;
+    transition: 0.5s;
     position: relative;
-    overflow: hidden;
-    margin: 0 1rem;
+    /* overflow: hidden; */
+    /* margin: 0 1rem; */
+    background-color: #27333f;
 
 }
+
+
 
 .btn1{
     color: #fff;
 }
 
 .btn1:hover{
-    color: #2d0b00 ;
+    color: rgb(51, 48, 48);
+    background-color: #eeebf3;
+    border: 1px solid #27333f;
 }
 
-btn::before{
+/* btn::before{
     content: "";
     position: absolute;
     left: 0;
@@ -101,7 +107,7 @@ btn::before{
     z-index: -1;
     transition: 0.8s;
     color: #2d0b00;
-}
+} */
 
 btn1::before{
     top: 0;
@@ -171,6 +177,10 @@ hr{
     .col:nth-child(2), .col:nth-child(3){
         flex-basis: 100%;
     }
+}
+
+.spacing{
+    height: 20vh;
 }
 
 /* .brd{

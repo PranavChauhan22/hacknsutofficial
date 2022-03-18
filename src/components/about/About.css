@@ -64,3 +64,16 @@
 .countup{
     margin-top: 10px;
 }
+
+
+
+.aboutieee{
+    background-color: black;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 10px; */
+    padding-top: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
