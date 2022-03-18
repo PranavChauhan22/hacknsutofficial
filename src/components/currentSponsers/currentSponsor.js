@@ -79,7 +79,7 @@ function CurrentSponsor() {
         <div className="cardSet">
           <div className="cardTrack">
             <div className="slidea">
-              <a href="https://celo.org ">
+              <a href="https://rosenfeldmedia.com/">
                 {" "}
                 <img src={img6} height="100" alt="" />
               </a>
