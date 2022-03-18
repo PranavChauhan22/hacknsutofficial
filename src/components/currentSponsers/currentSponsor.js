@@ -29,7 +29,7 @@ function CurrentSponsor() {
       </div>
 
       <div className="title-sponsors">
-        <h2 className="theme__head main">Title Sponsors</h2>
+        <h2 className="theme__head main special">Title Sponsors</h2>
         <div className="cardSet">
           <div className="cardTrack">
             <div className="slidea">
@@ -48,7 +48,7 @@ function CurrentSponsor() {
       </div>
 
       <div className="gold-sponsors">
-        <h2 className="theme__head main">Gold Sponsors</h2>
+        <h2 className="theme__head main special">Gold Sponsors</h2>
         <div className="cardSet">
           <div className="cardTrack">
             <div className="slidea">

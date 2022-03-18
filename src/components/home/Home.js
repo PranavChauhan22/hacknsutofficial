@@ -17,6 +17,8 @@ import {
 import "./Home.css";
 import Countdown from "./Countdown";
 import Typewriter from "typewriter-effect";
+import {FaDiscord} from 'react-icons/fa'
+import Prize from "../prizes/Prize";
 
 function Home() {
   const onlyWidth = useWindowWidth();
@@ -44,6 +46,7 @@ function Home() {
 
   return (
     <div className="home" id="home">
+      <Prize/>
       <div className="social_icons">
         <div className="upper_div"></div>
         <a href="https://www.instagram.com/_hacknsut_/" target={"_blank"}>
@@ -91,6 +94,10 @@ function Home() {
               data-button-theme="dark-inverted"
     
             ></div>
+             <a href="https://discord.gg/sA2VYB2f" target={"_blank"} className="discord_wrap" style={{marginTop:"10px"}}>
+           <FaDiscord className="discord_icon"/>
+           <div className="discord_txt">Join Discord</div>
+         </a>
         </div>
         <Fade up>
           <div className="right_section">

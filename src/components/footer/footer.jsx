@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import "./footer.css";
 import SocialFollow from "./social";
-
+import {FaDiscord} from 'react-icons/fa'
+import im from "../images/ieee_newlogo.png"
 function Footer() {
   useEffect(() => {
     const script = document.createElement("script");
@@ -17,10 +18,22 @@ function Footer() {
     <footer>
       <div className="row" id="footer">
         <div className="col">
+          <div className="logos_wrap">
+            <div>
+
           <img
             src={require("../images/logo_black and white.png")}
             className="logo"
-          ></img>
+            ></img>
+            </div>
+            <div>
+
+          <img
+            src={im}
+            className="logo_nsut"
+            ></img>
+            </div>
+            </div>
           <div>
             A 24-hour Software Hackathon with themes like IoT,
             Blockchain/Fintech, AR/VR, Edtech, Healthcare, Assistive technology
@@ -40,7 +53,7 @@ function Footer() {
           <div>Netaji Subhas University of Technology</div>
           <div>Sector -3, Dwarka</div>
           <div>New Delhi - 110078</div>
-          <div className="email"><a href="mailto:ieeehacknsut@gmail.com">ieeehacknsut@gmail.com</a></div>
+          <div className="email"><a href="mailto:ieee@nsut.ac.in">ieee@nsut.ac.in</a></div>
           <h4>
             Gagan Singh <br />
             Chief-Convener: +91-9999566832
@@ -86,15 +99,20 @@ function Footer() {
             data-button-theme="dark"
             style={{ height: 44 + "px", width: 312 + "px" }}
           ></div>
+         <a href="https://discord.gg/sA2VYB2f" target={"_blank"} className="discord_wrap">
+           <FaDiscord className="discord_icon"/>
+           <div className="discord_txt">Join Discord</div>
+         </a>
           <div className="social">
             <SocialFollow />
           </div>
-          <div >
-            <div className="spacing">
+          <div style={{marginTop:"30px"}}>
+            <div className="insu">
+            Interested in sponsoring us?
+              </div>
+          <a href="https://forms.gle/HZBzLhucd14fnX88A" target={"_blank"} >
 
-            </div>
-          <a href="https://drive.google.com/file/d/1S0AMhZ9QaAvDHzBRBFqpf96EDTYBoGea/view?usp=sharing">
-            <button className="btn btn1 brochure">Sponsor Us</button>
+            <button className="btn btn1 brochure" style={{marginTop:"20px"}}>Sponsor Us</button>
           </a> 
           </div>
 
@@ -102,6 +120,8 @@ function Footer() {
       </div>
       <hr></hr>
 
+    <a href={"https://devfolio.co/code-of-conduct"} target={"_blank"} style={{textDecoration:"none",color:"white"}}>
+     <p className="copyright">Code of Conduct</p>  </a> 
       <p className="copyright">HackNSUT © 2022 - All Rights Reserved</p>
     </footer>
   );

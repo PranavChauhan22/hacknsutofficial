@@ -36,7 +36,7 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a
-        href="mailto:ieeehacknsut@gmail.com"
+        href="mailto:ieee@nsut.ac.in"
         className="iconColor instagram social"
       >
         <FontAwesomeIcon icon={faEnvelope} size="2x" />
