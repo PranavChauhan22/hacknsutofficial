@@ -46,7 +46,6 @@ function Home() {
 
   return (
     <div className="home" id="home">
-      <Prize/>
       <div className="social_icons">
         <div className="upper_div"></div>
         <a href="https://www.instagram.com/_hacknsut_/" target={"_blank"}>

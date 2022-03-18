@@ -93,7 +93,7 @@ h1:before {
 	overflow: hidden;
 	max-width: 20em;
 	color: #7935ff;
-	animation: loading 20s linear;
+	animation: loading 15s linear;
 }
 
 

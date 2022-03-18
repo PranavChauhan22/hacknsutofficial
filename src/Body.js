@@ -18,7 +18,7 @@ function Body() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 100);
+    }, 8000);
   }, []);
   return (
     <div>
