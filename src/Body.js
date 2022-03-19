@@ -13,6 +13,7 @@ import CurrentSponsor from "./components/currentSponsers/currentSponsor";
 import Loading from "./components/loading/Loading";
 import react, { useState, useEffect } from "react";
 import AboutIeee from "./components/about/aboutIeee";
+import Mentors from "./components/mentors/mentorList";
 function Body() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -33,6 +34,7 @@ function Body() {
           <Theme />
           <CurrentSponsor />
           <Sponsor />
+          <Mentors />
           <Timeline />
           <Gallery />
           <Team />
