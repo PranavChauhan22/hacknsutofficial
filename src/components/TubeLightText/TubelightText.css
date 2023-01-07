@@ -1,0 +1,33 @@
+
+:root{
+    --div-primary-color: #0ae0e5;
+    --div-secondary-color: #0aacfc;
+    --div-background-color: black;
+    --div-background2-color: #ffffff;
+
+    --div-headingtext-font: 'Orbitron', sans-serif;
+    --div-contenttext-font: 'Gugi', sans-serif;
+}
+
+.tubelight{
+    font-size: 5rem;
+    letter-spacing: 1px;
+    color:#0ae0e5;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 1em;
+    outline:none;
+    animation: animate 5s linear infinite;
+    /* font-family: var(--div-contenttext-font); */
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: #7935ff;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: white;
+        text-shadow: 0 0 10px  rgb(145, 5, 238),0 0 20px  rgb(145, 5, 238),0 0 40px  rgb(145, 5, 238),0 0 80px   rgb(145, 5, 238),0 0 160px  rgb(145, 5, 238);
+    }
+}
