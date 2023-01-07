@@ -49,23 +49,23 @@ function Sponsor() {
           </div>
 
           <div class="slide">
-            <img src={img2} height="100" alt="" />
+            <img src={img2} style={{ marginLeft: '100px' }} height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={img3} style={{ marginLeft: '150px' }}  height="100" alt="" />
+            <img src={img3} style={{ marginLeft: '250px' }}  height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={agora22} height="80" style={{ marginLeft: '30px', marginTop: '20px' }} alt="" />
+            <img src={agora22} height="80" style={{ marginLeft: '150px', marginTop: '20px' }} alt="" />
           </div>
 
           <div class="slide">
-            <img src={img4} style={{ marginLeft: '50px' }} height="80" alt="" />
+            <img src={img4} style={{ marginLeft: '150px' }} height="80" alt="" />
           </div>
 
           <div className="slide">
-            <img src={img5} height="70" style={{ marginLeft: '200px', marginTop: '10px' }} alt="" />
+            <img src={img5} height="70" style={{ marginLeft: '300px', marginTop: '10px' }} alt="" />
           </div>
           <div class="slide">
             <img src={winzo22} style={{ marginLeft: '50px' }} height="100" alt="" />
@@ -76,35 +76,35 @@ function Sponsor() {
           </div>
 
           <div class="slide">
-            <img src={img7} height="100" alt="" />
+            <img src={img7} style={{ marginLeft: '200px' }} height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={polygon22} height="100" alt="" />
+            <img src={polygon22} style={{ marginLeft: '70px' }} height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={img8} height="100" alt="" />
+            <img src={img8} style={{ marginLeft: '300px' }} height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={img9} height="100" alt="" />
+            <img src={img9} style={{ marginLeft: '50px' }} height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={roesenfield22} height="100" alt="" />
+            <img src={roesenfield22} style={{ marginLeft: '90px' }} height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={img10} height="100" alt="" />
+            <img src={img10} style={{ marginLeft: '200px' }} height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={img11} height="100" alt="" />
+            <img src={img11} style={{ marginLeft: '200px' }} height="100" alt="" />
           </div>
 
           <div class="slide">
-            <img src={filecoin22} height="100" alt="" />
+            <img src={filecoin22} style={{ marginLeft: '50px' }} height="100" alt="" />
           </div>
 
         </div>
