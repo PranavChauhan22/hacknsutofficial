@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+:root{
+    --div-primary-color: #0ae0e5;
+    --div-secondary-color: #09abfc;
+    --div-background-color: black;
+    --div-background2-color: #ffffff;
+
+    --div-headingtext-font: 'Orbitron', sans-serif;
+    --div-contenttext-font: 'Gugi', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sponsors{
+    margin-top: 5rem;
+}
+.sponsors p{
+    color: #0ae0e5;
+    font-family: 'Orbitron', sans-serif;
+    font-weight:bolder;
+}
+.sponsor-heading{
+    text-align: center;
+    color: #0ae0e5;
+    font-size: 5rem;
+    padding:16px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plat img{
+    width: 15vw;
+}
+.plat{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 30%;
+    margin:2vw;
+    padding:2vw;
+    border: 1px var(--div-primary-color) solid;
+    border-radius: 10px;
+}
+.plat-heading{
+    text-align: left;
+    font-size: 3vw;
+}
+.plat-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:2vw;
+    justify-items: center;
+    align-items:stretch;
+    justify-content: center;
+    align-content: center;
+}
+.gold img{
+    width: 10vw;
+}
+.gold{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 30%;
+    margin:2rem;
+    padding:2rem;
+    border: 1px var(--div-primary-color) solid;
+    border-radius: 10px;
+}
+.gold-heading{
+    text-align: right;
+    font-size:2.2vw;
+}
+.gold-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin:2vw;
+    justify-items: center;
+    align-items:stretch;
+    justify-content: center;
+    align-content: center;
+}
+.gold .logo-box{
+    height: 10vw;
+}
+.silver img{
+    width: 8vw;
+}
+.silver{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    margin:2rem;
+    padding:2rem;
+    border: 1px var(--div-primary-color) solid;
+    border-radius: 10px;
+}
+.silver-heading{
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+.silver-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin:2vw;
+    justify-items: center;
+    align-items:stretch;
+    justify-content: center;
+    align-content: center;
+}
+.griditem{
+    padding-bottom: 1rem; padding-left: 10px; padding-right: 10px;
+    padding-top:1rem;
+    margin:0.7vw 0.7vw;
+    border-radius: 10px;
+}
+
+.logo-box{
+    background-image: linear-gradient(var(--div-primary-color), var(--div-secondary-color));
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-box:hover{
+    transform: matrix(1.1, 0, 0, 1.1, 0, -5);
+    opacity:0.9;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:725px){
+    .plat,.silver{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+    }
+    .plat-grid,.gold-grid,.silver-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+        align-items:stretch;
+        justify-content: center;
+        align-content: center;
+    }
+    .gold{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width:90%;
+    }
+    .plat-heading,.gold-heading,.silver-heading{
+        font-size: 5vw;
+        padding: 2%;
+    }
+    .logo-box{
+        width: 90%;
+        height:20vw;
+        margin:2vw;
+    }
+    .plat img,.gold img,.silver img{
+        width: 90%;
+    }
+}
+
