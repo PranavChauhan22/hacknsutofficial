@@ -15,7 +15,7 @@ export default function SocialFollow() {
     <div className="social-container">
     
       <a
-        href="https://www.facebook.com/hacknsut"
+        href=" https://www.facebook.com/hacknsut"
         className="iconColor facebook social"
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
@@ -24,7 +24,11 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a
+<<<<<<< HEAD
         href="https://www.instagram.com/_techweek/"
+=======
+        href=" https://www.instagram.com/_techweek/"
+>>>>>>> 28389816200d2f67d963f89df23316beb6f81b20
         className="iconColor instagram social"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />

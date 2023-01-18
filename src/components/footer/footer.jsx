@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./footer.css";
 import SocialFollow from "./social";
-import {FaDiscord} from 'react-icons/fa'
+import { FaDiscord } from 'react-icons/fa'
 import im from "../images/hacklogo.png"
 function Footer() {
   useEffect(() => {
@@ -21,19 +21,19 @@ function Footer() {
           <div className="logos_wrap">
             <div>
 
-          <img
-            src={require("../images/TechWeekLogo.png")}
-            className="logo"
-            ></img>
+              <img
+                src={require("../images/TechWeekLogo.png")}
+                className="logo"
+              ></img>
             </div>
             <div>
 
-          <img
-            src={im}
-            className="logo_nsut"
-            ></img>
+              <img
+                src={im}
+                className="logo_nsut"
+              ></img>
             </div>
-            </div>
+          </div>
           <div>
             A 24-hour Software Hackathon with themes like IoT,
             Blockchain/Fintech, AR/VR, Edtech, Healthcare, Assistive technology
@@ -74,7 +74,7 @@ function Footer() {
           </h3>
           <ul>
             <li>
-              <a href="#about" style={{textAlign:"left"}}>About</a>
+              <a href="#about" style={{ textAlign: "left" }}>About</a>
             </li>
             <li>
               <a href="#sponsor">Sponsors</a>
@@ -121,14 +121,14 @@ function Footer() {
           <div className="social">
             <SocialFollow />
           </div>
-          <div style={{marginTop:"30px"}}>
+          <div style={{ marginTop: "30px" }}>
             <div className="insu">
             Interested in sponsoring us?
               </div>
           <a href="https://forms.gle/rLDheSbUvMDTfwhGA" target={"_blank"} style={{textDecoration:"none"}}>
 
-            <button className="btn btn1 brochure" style={{marginTop:"20px"}}>Sponsor Us</button>
-          </a> 
+              <button className="btn btn1 brochure" style={{ marginTop: "20px", textDecoration: "none" }}>Sponsor Us</button>
+            </a>
           </div>
 
         </div>
