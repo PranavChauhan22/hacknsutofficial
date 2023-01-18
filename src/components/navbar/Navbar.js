@@ -29,14 +29,14 @@ function Navbar() {
               About
               </a>
               </div>
-              {onlyWidth>=678&&
+              {/* {onlyWidth>=678&&
            <div>
            <a href="#theme" style={{textDecoration:"none"}} className="nav_elements">
 
            Themes
            </a>
            </div>
-}
+} */}
 {onlyWidth>=678&&
            <div>
            <a href="#sponsor" style={{textDecoration:"none"}} className="nav_elements">
@@ -60,14 +60,14 @@ function Navbar() {
             </div>
 }
 
-{onlyWidth>=678&&
+{/* {onlyWidth>=678&&
            <div>
            <a href="#faq" style={{textDecoration:"none"}} className="nav_elements">
 
            FAQs
            </a>
            </div>
-}
+} */}
 {/* {onlyWidth>=678&&
            <div>
            <a href="#Judges" style={{textDecoration:"none"}} className="nav_elements">

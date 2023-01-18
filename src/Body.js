@@ -15,7 +15,7 @@ import AboutIeee from "./components/about/aboutIeee";
 import ThemeComingSoon from "./components/themes/ThemeComingSoon";
 import Sponsors from "./components/sponsors/Sponsors";
 import AnnouncingSponsors from "./components/sponsors/AnnouncingSponsors";
-import Team from "./components/Teamhack/Team";
+import Team from "./components/Team/Team";
 function Body() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -39,6 +39,7 @@ function Body() {
           <Timeline />
           {/* <Gallery /> */}
           {/* <Team/> */}
+<Team/>
           <Footer />
         </div>
       )}

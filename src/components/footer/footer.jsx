@@ -65,7 +65,7 @@ function Footer() {
             Chief-Convener: +91 9315 298602
           </h4>
         </div>
-        <div className="col cole brd">
+        {/* <div className="col brd">
           <h3>
             Links{" "}
             <div className="underline">
@@ -90,15 +90,31 @@ function Footer() {
             </li>
           </ul>
 
+        </div> */}
+        <div className="col brd">
+          <h3 className="footerhead">
+            Links{" "}
+            <div className="underline">
+              <span></span>
+            </div>
+          </h3>
+          <div className="wrap_l">
+          <div href="#about">About</div>
+          <div href="#sponsor">Sponsors</div>
+          <div href="#faq">FAQs</div>
+          <div href="#footer">Contact</div>
+          <div href="/rules">Rules</div>
+          </div>
+
         </div>
         <div className="col">
-          <div
+          {/* <div
             className="apply-button"
             data-hackathon-slug="hacknsut-5"
             data-button-theme="dark"
             style={{ height: 44 + "px", width: 312 + "px" }}
-          ></div>
-         <a href="https://discord.gg/sA2VYB2f" target={"_blank"} className="discord_wrap">
+          ></div> */}
+         <a href="https://discord.gg/CajACdgY" target={"_blank"} className="discord_wrap">
            <FaDiscord className="discord_icon"/>
            <div className="discord_txt">Join Discord</div>
          </a>
@@ -109,7 +125,7 @@ function Footer() {
             <div className="insu">
             Interested in sponsoring us?
               </div>
-          <a href="https://forms.gle/HZBzLhucd14fnX88A" target={"_blank"} >
+          <a href="https://forms.gle/rLDheSbUvMDTfwhGA" target={"_blank"} style={{textDecoration:"none"}}>
 
             <button className="btn btn1 brochure" style={{marginTop:"20px"}}>Sponsor Us</button>
           </a> 
@@ -121,7 +137,7 @@ function Footer() {
 
     <a href={"https://devfolio.co/code-of-conduct"} target={"_blank"} style={{textDecoration:"none",color:"white"}}>
      <p className="copyright">Code of Conduct</p>  </a> 
-      <p className="copyright">HackNSUT © 2022 - All Rights Reserved</p>
+      <p className="copyright">HackNSUT © 2023 - All Rights Reserved</p>
     </footer>
   );
 }

@@ -22,7 +22,7 @@
 }
 .nav_elements:hover{
     font-weight: bold;
-    color: var(--btn-color);
+    color: cyan;
     margin-right: 30px;
     border-bottom: 1px solid white;
 }

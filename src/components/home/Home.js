@@ -48,19 +48,19 @@ function Home() {
     <div className="home" id="home">
       <div className="social_icons">
         <div className="upper_div"></div>
-        <a href="https://www.instagram.com/_hacknsut_/" target={"_blank"}>
+        <a href="https://www.instagram.com/_techweek/" target={"_blank"}>
           <AiFillInstagram className="social_icon" />
         </a>
         <a
-          href="https://www.linkedin.com/in/hack-nsut-a86aa2182//"
+          href="https://www.linkedin.com/company/techweek-ieeensut/"
           target={"_blank"}
         >
           <AiFillLinkedin className="social_icon" />
         </a>
-        <a href="https://twitter.com/hacknsut" target={"_blank"}>
+        <a href="https://twitter.com/_techweek" target={"_blank"}>
           <AiOutlineTwitter className="social_icon" />
         </a>
-        <a href="https://facebook.com/hacknsut" target={"_blank"}>
+        <a href="https://www.facebook.com/hacknsut" target={"_blank"}>
           <AiOutlineFacebook className="social_icon" />
         </a>
         <a href="mailto:ieeehacknsut@gmail.com" target={"_blank"}>

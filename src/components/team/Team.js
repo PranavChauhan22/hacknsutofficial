@@ -5,80 +5,132 @@ import {
   useWindowHeight,
 } from "@react-hook/window-size";
 import "./Team.css";
-const img1 ="1CH7jkvsHwOgfkllNM65VnkAAXc7ATN_s"
-const img2 ="19ZXOMxFZMZQIGP0msjnM9viNHK1ZrlnX"
-const img3 = "12vfrkOO5C92ExlJRZyWUZakigEawzOXk"
-const img4 ="19kXytysDJTuYLJO06GRkRXntjvuE3vqV"
-const img5 ="14qTRrtbJeOZfH1oCrQFJdsVCJM7-7bYM"
-const img6 ="1O8BtDNAvr4Q_wCCfqSm80fIwJTDF20Yw"
-const img7 ="1eSycO_RC2qfNx085-E6NakDoH3FoTK8i"
-const img8 ="1DhZ0Pe1YrLCHLVjkqGZ8HatdGFlKSpAE"
-const img9 ="1KagQMLZDACqr-Mn_7O6wiWzAyOqCcNXi"
-const img10= "1DCfAI8CFdEFukchAKQZN8GzOf8rAw2dX"
-const img11= "109Fj17ITesStauBCZKnp7e-hDjWDTERq"
-const img12= "1ZUjTWprQYlncou6UPeVMSKwS3EW5RwfM"
-const img13= "1uTh3yg32WDMieack6xpBVBmUt_GFIkYk"
-const img14= "1mpPvt3JsZDPy4jLLvhMheiDbbVmNna4T"
-const img16= "1eeGn2ITs6VwIwqkaFfnufsPsyPA4NzXu"
-const img17= "1ygUdMEwoykqxRCoM4imtzabWVYRGlM3T"
-const img18= "1mXOhIkisU73wmuY-QKQQNRucUmA5Frh5"
-const img19= "1okRG_3gAb8OFyChWEgdjLs7jekPRo5H0"
-const img20= "1sPnZsZiEGCkNIon4xA62iZAWCnz4sbNn"
+import logo2 from "../images/team/akshat.jpeg";
+import logo3 from "../images/team/anshul (1).jpg";
+import logo4 from "../images/team/arpit.jpg";
+import logo5 from "../images/team/ayush.jpg";
+import logo6 from "../images/team/chirag.jpg";
+import logo7 from "../images/team/pranav.jpeg";
+import logo8 from "../images/team/prerna.jpg";
+import logo9 from "../images/team/shubham.jpg";
+import logo10 from "../images/team/sneha.JPG";
+import logo11 from "../images/team/ujjawal.jpg";
+import logo1 from "../images/team/Vidit.jpeg";
+import logo12 from "../images/team/Yajur.jpeg";
+import logo13 from "../images/team/ritik.jpeg";
+import logo14 from "../images/team/vibhu.jpeg";
+import Honecombcell from "./Honecombcell";
 
-function Team() {
+export default function Team() {
   const onlyWidth = useWindowWidth();
+
   return (
     <div className="team" id="team">
-      <div className="theme__header">
+     <div
+        className="theme__header"
+        id="timeline"
+        style={{ marginTop: "100px" }}
+      >
         <div
           className="header_line"
-          style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50 }}
+          style={{ width: 50 < onlyWidth / 2 - 200 ? onlyWidth / 2 - 200 : 50 }}
         ></div>
-        <div className="theme__head">Team</div>
+        <div className="theme__head">OUR TEAM</div>
         <div
           className="header_line"
-          style={{ width: (50<onlyWidth / 2 - 200)?onlyWidth / 2 - 200:50}}
+          style={{ width: 50 < onlyWidth / 2 - 200 ? onlyWidth / 2 - 200 : 50 }}
         ></div>
       </div>
-      <div className="team__outer">
-        <div className="team__left">
+      <ul className="honeycomb">
+        <Honecombcell
+          img={logo14}
+          title="Mentor"
+          ln={"https://www.linkedin.com/in/vibhu-badal-gupta/"}
+          ig={"https://www.instagram.com/thewittybrown/"}
+        />
+        <Honecombcell
+          img={logo10}
+          title="Mentor"
+          ig={"https://www.instagram.com/ishnehaaa/"}
+          ln={"https://www.linkedin.com/in/pandeysneha/"}
+        />
+        <Honecombcell
+          img={logo7}
+          title="Chief Convener"
+          ig={"https://www.instagram.com/thepranav.chauhan/"}
+          ln={"https://www.linkedin.com/in/pranav-chauhan-217bb11b9/"}
+        />
+        <Honecombcell
+          img={logo13}
+          title="Chief Convener"
+          ig={"https://www.instagram.com/ritikyadav_675/"}
+          ln={"https://www.linkedin.com/in/ritik-yadav-675abc/"}
+        />
+        <Honecombcell
+          img={logo3}
+          title="Co-Convener"
+          ig={"https://www.instagram.com/wiz_anshul/"}
+          ln={"https://www.linkedin.com/in/anshuly777/"}
+        />
+        <Honecombcell
+          img={logo6}
+          title="Co-Convener"
+          ig={"https://www.instagram.com/chiragjindal9811/"}
+          ln={"https://www.linkedin.com/in/chirag-jindal-a11a24205/"}
+        />
+        <Honecombcell
+          img={logo5}
+          title="Treasurer"
+          ig={"https://www.instagram.com/ayushtenguria/"}
+          ln={"https://www.linkedin.com/in/ayush-sharma-800853120/"}
+        />
+        <Honecombcell
+          img={logo3}
+          title="PR Head"
+          ig={"https://www.instagram.com/wiz_anshul/"}
+          ln={"https://www.linkedin.com/in/anshuly777/"}
+          // className={"hidden"}
+        />
+        <Honecombcell
+          img={logo8}
+          title="EM Head"
+          ig={"https://www.instagram.com/_.yd.prerna._/"}
+          ln={"https://www.linkedin.com/in/prernayadav488/"}
+        />
+        <Honecombcell
+          img={logo4}
+          title="Creative Head"
+          ig={""}
+          ln={"https://www.linkedin.com/in/arpit-juneja-/"}
+        />
+        <Honecombcell
+          img={logo5}
+          title="Tech Head"
+          ig={"https://www.instagram.com/ayushtenguria/"}
+          ln={"https://www.linkedin.com/in/ayush-sharma-800853120/"}
+          // className={"hidden"}
+        />
+        <Honecombcell
+          img={logo1}
+          title="General Secretary"
+          ig={"https://www.instagram.com/vidit_sinha/"}
+          ln={"https://www.linkedin.com/in/vidit-v-1a0ab2205/"}
+        />
+        <Honecombcell
+          img={logo9}
+          title="General Secretary"
+          ig={""}
+          ln={"https://www.linkedin.com/in/arpit-juneja-/"}
+        />
+        <Honecombcell
+          img={logo12}
+          title="General Secretary"
+          ig={"https://www.instagram.com/yajur_chugh_07/"}
+          ln={"https://www.linkedin.com/in/yajur-chugh-5a44a220b/"}
+        />
 
-
-          <div className="team__head1">
-            Meet the team
-          </div>
-      
-          <div className="team__head2">
-          Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.
-          </div>
-          <a href="/team" style={{textDecoration:"none"}} target={"_blank"}>
-          <div className="home_btn">Have a look</div>
-          </a>
-        </div>
-        <div className="team__right">
-          <img src={"https://drive.google.com/thumbnail?id="+img16} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img20} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img11} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img19} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img10} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img12} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img13} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img6} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img9} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img7} className="profile__pica"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img8} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img14} className="profile__pica"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img4} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img17} className="profile__pica"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img3} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img18} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img1} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img5} className="profile__pic"/>
-          <img src={"https://drive.google.com/thumbnail?id="+img2} className="profile__pic"/>
-        </div>
-      </div>
+        <li className="honeycomb-cell honeycomb_Hidden"></li>
+      </ul>
     </div>
   );
 }
-
-export default Team;
