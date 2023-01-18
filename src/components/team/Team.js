@@ -84,13 +84,7 @@ export default function Team() {
           ig={"https://www.instagram.com/ayushtenguria/"}
           ln={"https://www.linkedin.com/in/ayush-sharma-800853120/"}
         />
-        <Honecombcell
-          img={logo3}
-          title="PR Head"
-          ig={"https://www.instagram.com/wiz_anshul/"}
-          ln={"https://www.linkedin.com/in/anshuly777/"}
-          // className={"hidden"}
-        />
+      
         <Honecombcell
           img={logo8}
           title="EM Head"
@@ -103,13 +97,7 @@ export default function Team() {
           ig={""}
           ln={"https://www.linkedin.com/in/arpit-juneja-/"}
         />
-        <Honecombcell
-          img={logo5}
-          title="Tech Head"
-          ig={"https://www.instagram.com/ayushtenguria/"}
-          ln={"https://www.linkedin.com/in/ayush-sharma-800853120/"}
-          // className={"hidden"}
-        />
+     
         <Honecombcell
           img={logo1}
           title="General Secretary"
