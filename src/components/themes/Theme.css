@@ -14,7 +14,7 @@
 }
 .header_line{
     height: 10px;
-    background-color: var(--secondary-color);
+    background-color: cyan;
 }
 @media screen and (max-width:1439px) {
     .themes{

@@ -34,14 +34,14 @@ function Home() {
   };
 
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
+    // const script = document.createElement("script");
+    // script.src = "https://apply.devfolio.co/v2/sdk.js";
+    // script.async = true;
+    // script.defer = true;
+    // document.body.appendChild(script);
+    // return () => {
+    //   document.body.removeChild(script);
+    // };
   }, []);
 
   return (
@@ -73,7 +73,7 @@ function Home() {
           <Fade left>
             <div className="home__txt_1">Welcome to</div>
           </Fade>
-          <div className="home__txt_2">HackNSUT</div>
+          <div className="home__txt_2">Hack<span className="cyannsut">NSUT</span></div>
           <Typewriter
             options={{
               strings: ["Learn", "Code", "Develop"],
@@ -83,17 +83,17 @@ function Home() {
             }}
           />
           <Fade bottom>
-            <div className="home__txt_3">organised by IEEE NSUT</div>
+            <div className="home__txt_3 cyancolor">organised by IEEE NSUT</div>
           </Fade>
-          <Countdown date={"2022-03-25"} />
+          <Countdown date={"2023-02-11"} />
 
-            <div
+            {/* <div
               className="apply-button"
               data-hackathon-slug="hacknsut-5"
               data-button-theme="dark-inverted"
     
-            ></div>
-             <a href="https://discord.gg/sA2VYB2f" target={"_blank"} className="discord_wrap" style={{marginTop:"10px"}}>
+            ></div> */}
+             <a href="https://discord.gg/CajACdgY" target={"_blank"} className="discord_wrap" style={{marginTop:"10px"}}>
            <FaDiscord className="discord_icon"/>
            <div className="discord_txt">Join Discord</div>
          </a>

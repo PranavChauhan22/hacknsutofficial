@@ -7,7 +7,7 @@
     .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
     .vertical-timeline-element-content
     .vertical-timeline-element-date {
-    color: rgb(163, 81, 245);
+    color: #00FFFF;
     font-weight: bold;
   }
 

@@ -9,7 +9,7 @@ import {
 } from '@react-hook/window-size'
 import { FiSettings } from "react-icons/fi";
 import Lottie from "react-lottie";
-import aboutieee_animation from "../animations/ieee.json";
+import aboutieee_animation from "../animations/anim2.json";
 
 
 function AboutIeee() {
@@ -31,7 +31,7 @@ function AboutIeee() {
   
       <div className="about__right about_left">
         <div className="about__text">
-          <div className="about__head">About IEEENSUT</div>
+          <div className="about__head">About <span className="cyancolor" style={{marginLeft:"7px"}}> IEEENSUT</span></div>
           IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE's core purpose is to foster technological innovation and excellence for the benefit of humanity. IEEE-NSUT Student Branch works to create an atmosphere of technical excellence for the students. We manage and organize various events and conferences at national level. It aims at helping students in building an attitude towards applying engineering in daily life by learning ways to use the latest technology on offer.
         </div>
       

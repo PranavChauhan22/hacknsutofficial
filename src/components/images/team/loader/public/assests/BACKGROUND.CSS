@@ -1,0 +1,211 @@
+body {
+  background-color: #000;
+}
+#teams{
+  text-align: center;
+}
+
+#teams img {
+  margin: 15px;
+  border-radius: 32px;
+  text-align: center;
+  border: 10px solid #0ae0e5 ;
+}
+
+.team-box {
+  /* background-color: #faf4f0; */
+  /* background-image: linear-gradient(43deg, #0ae0e5 5%, #000 50%, #ffff 100%); */
+  background-image: linear-gradient(43deg, #000 20%, #0ae0e5 90%);
+  margin: auto;
+ display: inline-block;
+ transition-duration: 0.6s;
+  color: #ffff;
+  /* padding: 1.5rem; */
+  padding-top: 1rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  padding-bottom: 0.4rem;
+  width: 90%;
+  margin-bottom: 5rem;
+  border-radius: 15px;
+  border-bottom: 8px solid #0ae0e5;
+  
+  /* box-shadow: 2px 2px 5px rgb(243, 241, 241); */
+ 
+  
+  
+  
+}
+
+.team-box:hover{
+  
+  color: rgb(255, 253, 253);
+  transition: 0.6s;
+ display: inline-block;
+  transform: scale(1.1);  
+  
+  /* background-color: #0ae0e5; */
+  /* background-image: linear-gradient(43deg, #ffff 5%, #000 50%, #0ae0e5 90%); */
+  background-image: linear-gradient(43deg, #000 60%, #0ae0e5 90%);
+  /* background-image: linear-gradient(43deg, #0ae0e5 5%, #000 50%, #ffff 100%); */
+  /* background-image: linear-gradient(to top, transparent, rgb(7, 7, 7) 15%, rgba(85, 227, 246, 0.968)); */
+}
+
+/* .button {
+  border: none;
+  color: #ffffff00;
+  background-color: #0ae0e5;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.button:hover {
+  border: none;
+  background-color: #ffffff00;
+  color: #0ae0e5;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+} */
+
+
+
+.member-id {
+  display: none;
+
+}
+.team-box:hover .member-id {
+   
+  
+  display:inline;
+  
+}
+
+.btn{
+  
+  display: none;
+  border-radius: 30px;
+}
+.team-box:hover  .btn{
+  transition: 10s; 
+  
+  display: inline;
+  
+}
+
+
+
+.team-box h2 {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+.team-box h5 {
+  font-size: 1.5rem;
+}
+
+.team-box h6 {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+h3{
+  color: #faf4f0;
+}
+
+
+/* animation background */
+
+.circle{
+  /* position: absolute; */
+  position: fixed;
+  z-index: -1;
+  border-radius: 50%;
+  background: #0ae0e5;
+  animation: ripple 7s infinite;
+  box-shadow: 0px 0px 1px 0px #508fb9;
+}
+
+.small{
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  bottom: -100px;
+}
+
+.medium{
+  width: 400px;
+  height: 400px;
+  left: -200px;
+  bottom: -200px;
+}
+
+.large{
+  width: 600px;
+  height: 600px;
+  left: -300px;
+  bottom: -300px;
+}
+
+.xlarge{
+  width: 800px;
+  height: 800px;
+  left: -400px;
+  bottom: -400px;
+}
+
+.xxlarge{
+  width: 1000px;
+  height: 1000px;
+  left: -500px;
+  bottom: -500px;
+}
+
+.shade1{
+  opacity: 0.2;
+}
+.shade2{
+  opacity: 0.4;
+}
+
+.shade3{
+  opacity: 0.5;
+}
+
+.shade4{
+  opacity: 0.6;
+}
+
+.shade5{
+  opacity: 0.7;
+}
+
+@keyframes ripple{
+  0%{
+    transform: scale(0.8);
+  }
+  
+  50%{
+    transform: scale(1.2);
+  }
+  
+  100%{
+    transform: scale(0.8);
+  }
+}
+
+/* animation ends */

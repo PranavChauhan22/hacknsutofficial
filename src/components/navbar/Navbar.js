@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../images/logo_white and purple.png"
+import logo from "../images/hacklogo.png"
 import {
   useWindowSize,
   useWindowWidth,

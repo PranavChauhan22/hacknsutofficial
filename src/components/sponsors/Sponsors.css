@@ -92,7 +92,7 @@
     align-content: center;
 }
 .gold .logo-box{
-    height: 10vw;
+    /* height: 10vw; */
 }
 .silver img{
     width: 8vw;
@@ -175,8 +175,8 @@ a{
         padding: 2%;
     }
     .logo-box{
-        width: 90%;
-        height:20vw;
+        /* width: 90%; */
+        /* height:20vw; */
         margin:2vw;
     }
     .plat img,.gold img,.silver img{

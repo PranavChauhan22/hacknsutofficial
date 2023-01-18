@@ -19,7 +19,7 @@ strong{
 
 }
 .spane{
-    color: var(--secondary-color);
+    color: cyan;
     font-weight: bolder;
     font-size: 25px;
 }

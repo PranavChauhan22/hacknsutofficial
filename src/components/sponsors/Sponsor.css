@@ -8,7 +8,9 @@
 		transform: translateX(calc(-250px * 11));
 	}
 }
+
 .sponsor{
+	
     background-color: black;
 	margin-top: 40px;
 }
@@ -19,8 +21,8 @@
 	margin: auto;
 	overflow: hidden;
 	position: relative;
-	
     margin-top: 60px;
+
 }
 
 .slider::before, .slider::after {

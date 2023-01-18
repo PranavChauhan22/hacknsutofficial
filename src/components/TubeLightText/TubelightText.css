@@ -23,11 +23,11 @@
 }
 @keyframes animate{
     0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
-        color: #7935ff;
+        color: cyan;
         text-shadow: none;
     }
     18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
         color: white;
-        text-shadow: 0 0 10px  rgb(145, 5, 238),0 0 20px  rgb(145, 5, 238),0 0 40px  rgb(145, 5, 238),0 0 80px   rgb(145, 5, 238),0 0 160px  rgb(145, 5, 238);
+        text-shadow: 0 0 10px  cyan,0 0 20px  cyan,0 0 40px  cyan,0 0 80px   cyan,0 0 160px  cyan;
     }
 }

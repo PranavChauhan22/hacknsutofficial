@@ -11,14 +11,14 @@ import {
 function Gallery() {
   const onlyWidth = useWindowWidth();
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    }
+    // const script = document.createElement('script');
+    // script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    // script.async = true;
+    // script.defer = true;
+    // document.body.appendChild(script);
+    // return () => {
+    //   document.body.removeChild(script);
+    // }
 }, []);
   return (
     <div className="galleria" id="gallery">
@@ -43,12 +43,12 @@ function Gallery() {
           <div className="team__head2">
           There is more to representing art than selling art. The life of the gallery is dependent on the renewal and refreshment of its artists and dealers. When that stops happening, it's the end.
           </div>
-          <div 
+          {/* <div 
 	className="apply-button" 
 	data-hackathon-slug="hacknsut-5" 
 	data-button-theme="dark-inverted"
 	style={{height: 44 + 'px', width: 312 + 'px'}}
-></div>
+></div> */}
         </div>
       </div>
     </div>

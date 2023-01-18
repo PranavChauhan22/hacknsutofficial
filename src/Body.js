@@ -3,7 +3,6 @@ import "./Style.css";
 import Navbar from "./components/navbar/Navbar";
 import About from "./components/about/About";
 import Theme from "./components/themes/Theme";
-import Team from "./components/team/Team";
 import Sponsor from "./components/sponsors/Sponsor";
 import Footer from "./components/footer/footer";
 import Gallery from "./components/gallery/Gallery";
@@ -14,6 +13,9 @@ import Loading from "./components/loading/Loading";
 import react, { useState, useEffect } from "react";
 import AboutIeee from "./components/about/aboutIeee";
 import ThemeComingSoon from "./components/themes/ThemeComingSoon";
+import Sponsors from "./components/sponsors/Sponsors";
+import AnnouncingSponsors from "./components/sponsors/AnnouncingSponsors";
+import Team from "./components/Teamhack/Team";
 function Body() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -32,11 +34,11 @@ function Body() {
           <About />
           <AboutIeee />
           <ThemeComingSoon />
-          <CurrentSponsor />
+          <Sponsors/>
           <Sponsor />
           <Timeline />
-          <Gallery />
-          <Team />
+          {/* <Gallery /> */}
+          {/* <Team/> */}
           <Footer />
         </div>
       )}

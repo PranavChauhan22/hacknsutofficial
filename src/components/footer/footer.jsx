@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./footer.css";
 import SocialFollow from "./social";
 import {FaDiscord} from 'react-icons/fa'
-import im from "../images/ieee_newlogo.png"
+import im from "../images/hacklogo.png"
 function Footer() {
   useEffect(() => {
     const script = document.createElement("script");
@@ -22,7 +22,7 @@ function Footer() {
             <div>
 
           <img
-            src={require("../images/logo_black and white.png")}
+            src={require("../images/TechWeekLogo.png")}
             className="logo"
             ></img>
             </div>
@@ -54,20 +54,18 @@ function Footer() {
           <div>Sector -3, Dwarka</div>
           <div>New Delhi - 110078</div>
           <div className="email"><a href="mailto:ieee@nsut.ac.in">ieee@nsut.ac.in</a></div>
+
           <h4>
-            Gagan Singh <br />
-            Chief-Convener: +91-9999566832
+            Ritik Yadav <br />
+            Chief-Convener: +91 97113 57634
           </h4>
+          <br></br>
           <h4>
-            Akshat Agarwal <br />
-            Event Management Head: +91-9560969330
-          </h4>
-          <h4>
-            Ujjawal Bansal <br />
-            Event Management Head: +91-9136334929
+            Pranav Chauhan <br />
+            Chief-Convener: +91 9315 298602
           </h4>
         </div>
-        <div className="col brd">
+        <div className="col cole brd">
           <h3>
             Links{" "}
             <div className="underline">
@@ -76,7 +74,7 @@ function Footer() {
           </h3>
           <ul>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" style={{textAlign:"left"}}>About</a>
             </li>
             <li>
               <a href="#sponsor">Sponsors</a>
@@ -91,6 +89,7 @@ function Footer() {
               <a href="/rules">Rules</a>
             </li>
           </ul>
+
         </div>
         <div className="col">
           <div

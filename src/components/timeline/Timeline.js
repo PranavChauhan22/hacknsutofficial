@@ -25,19 +25,19 @@ function Timeline() {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#7935ff', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="10 March 2022"
-        iconStyle={{ background: '#7935ff', color: '#fff' }}
+        contentStyle={{ background: '#00FFFF', color: '#000000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #00FFFF' }}
+        date="19 January 2023"
+        iconStyle={{ background: '#00FFFF', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">Registration Starts</h3>
       
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'white', color: '#7935ff' }}
+        contentStyle={{ background: 'white', color: '#000000' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="22 March 2022"
+        date="7 February 2023"
         iconStyle={{ background: 'white', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">Registration Ends</h3>
@@ -45,19 +45,19 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#7935ff', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="24 March 2022"
-        iconStyle={{ background: '#7935ff', color: '#fff' }}
+        contentStyle={{ background: '#00FFFF', color: '#000000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #00FFFF' }}
+        date="8 February 2023"
+        iconStyle={{ background: '#00FFFF', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">Team Confirmation RollOut</h3>
       
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'white', color: '#7935ff' }}
+        contentStyle={{ background: 'white', color: '#000000' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="25 March 2022, 9 AM"
+        date="11 February 2023, 9 AM"
         iconStyle={{ background: 'white', color: '#fff' }}
         >
         <h3 className="vertical-timeline-element-title">CheckIn</h3>
@@ -66,19 +66,19 @@ function Timeline() {
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#7935ff', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="25 March 2022, 10 AM"
-        iconStyle={{ background: '#7935ff', color: '#fff' }}
+        contentStyle={{ background: '#00FFFF', color: '#000000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #00FFFF' }}
+        date="11 Februar 2022, 9:30 AM"
+        iconStyle={{ background: '#00FFFF', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Opening Ceremony</h3>
       
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'white', color: '#7935ff' }}
+        contentStyle={{ background: 'white', color: '#000000' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="25 March 2022, 12 Noon"
+        date="11 Februar 2022, 10 AM"
         iconStyle={{ background: 'white', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Coding Period Starts</h3>
@@ -86,19 +86,19 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#7935ff', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  #7935ff' }}
-        date="26 March 2022, 12 Noon"
-        iconStyle={{ background: '#7935ff', color: '#fff' }}
+        contentStyle={{ background: '#00FFFF', color: '#000000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #00FFFF' }}
+        date="12 February 2023, 4 PM"
+        iconStyle={{ background: '#00FFFF', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Coding Period Ends And Final Evaluation</h3>
       
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'white', color: '#7935ff' }}
+        contentStyle={{ background: 'white', color: '#000000' }}
         contentArrowStyle={{ borderRight: '7px solid  white' }}
-        date="26 March 2022, 3 Noon"
+        date="12 February 2023, 5 PM"
         iconStyle={{ background: 'white', color: '#fff' }}
       >
         <h3 className="vertical-timeline-element-title">Closing Ceremony</h3>

@@ -9,7 +9,7 @@ import {
 } from '@react-hook/window-size'
 import { FiSettings } from "react-icons/fi";
 import Lottie from "react-lottie";
-import about_animation from "../animations/about.json";
+import about_animation from "../animations/anim1.json";
 function About() {
   const [isStopped, setisStopped] = useState(false);
   const [isPaused, setisPaused] = useState(false);
@@ -37,14 +37,14 @@ function About() {
   
       <div className="about__right">
         <div className="about__text">
-          <div className="about__head">About HackNSUT</div>
+          <div className="about__head">About <span className="cyancolor" style={{marginLeft:"7px"}}> HackNSUT</span></div>
           HackNSUT is a fraternity of programmers, developers and hackers aimed
           primarily at addressing real life problems, brainstorming innovative
           ideas and implementing the ingenious solutions into working
           prototypes.
         </div>
         <div className="about__text">
-          <div className="about__head">
+          <div className="about__head" style={{color:"cyan"}}>
             Gear Up <FiSettings className="setting_icon" />
           </div>
           It provides a platform for the best of minds all across the country to
@@ -56,7 +56,7 @@ function About() {
         <div className="stats">
           <div className="stat_wrap">
             <div className="stats__text">
-              <div>
+              <div className="cyancolor">
 
               Participants <br></br>hosted
               </div>
@@ -66,7 +66,7 @@ function About() {
               </div>
             </div>
             <div className="stats__text">
-              <div>
+              <div className="cyancolor">
 
               Lines of <br></br>code
               </div>
@@ -76,7 +76,7 @@ function About() {
               </div>
             </div>
             <div className="stats__text">
-              <div>
+              <div className="cyancolor">
 
               Cups of caffeine<br></br> consumed
               </div>

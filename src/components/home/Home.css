@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&family=Redressed&family=Source+Sans+Pro:wght@300&family=ZCOOL+QingKe+HuangYou&display=swap');
 
+
 .home{
     background-color: black;
     min-height: 100vh;
@@ -58,7 +59,7 @@ span{
 .upper_div{
     width:1px;
     background-color: white;
-    height: 30vh;
+    height: 20vh;
     margin-top: 20px;
 }
 
@@ -94,6 +95,11 @@ span{
     .right_section{
         margin-top: 30px;
     }
+    .cyannsut{
+        color: cyan;
+        font-size: 30px;
+       
+    }
 }
 @media screen and (min-width:678px) {
     .home__txt_1{
@@ -124,5 +130,15 @@ span{
         font-weight: bold;
         margin-top: 10px;
     }
+    .right_section{
+        margin-top: -100px;
+    }
+    .cyannsut{
+        color: cyan;
+        font-size: 50px;
+    }
     
+}
+.cyancolor{
+    color: cyan;
 }
