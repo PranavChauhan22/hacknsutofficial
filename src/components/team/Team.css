@@ -150,6 +150,10 @@
     margin: 0 12.5px;
 }
 
+.team-icon {
+    display: inline !important;
+}
+
 /****** Responsive *******/
 
 @media (max-width: 550px) {
@@ -207,8 +211,4 @@
 .fa {
     height: 10px;
     padding: 4px 8px !important;
-}
-
-.hidden {
-    visibility: hidden;
 }
